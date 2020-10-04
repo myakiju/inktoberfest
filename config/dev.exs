@@ -2,8 +2,8 @@ use Mix.Config
 
 # Configure your database
 config :inktoberfest, Inktoberfest.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "ink",
+  password: "inktober",
   database: "inktoberfest_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
