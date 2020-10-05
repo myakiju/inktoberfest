@@ -1,5 +1,22 @@
 # Inktoberfest
 
+When Inktober meets Hacktoberfest
+
+## Running on docker
+
+If you're running it for the first time, it;s required to build the db container and run ecto to create the database  
+``` 
+docker-compose run web mix ecto.create 
+```
+
+Then, start your docker composition :notes: 
+```
+docker-compose up
+```
+
+
+## Running locally without docker (needs Postgres installation)
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
